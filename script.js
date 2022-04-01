@@ -72,7 +72,7 @@ document.getElementById('todoList').addEventListener('click', itemClicado);
 
 atualizarTela()
 
-/*arrastar e soltar
+//arrastar e soltar
 
 const arrastaveis = document.querySelectorAll("[draggable='true']");
 const areaSoltar = document.querySelector(".todo__list")
@@ -92,4 +92,4 @@ arrastaveis.forEach((arrastaveis) =>{
 })
 
 areaSoltar.addEventListener("dragover", permitidoSoltar);
-*/
+
